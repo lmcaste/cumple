@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CUMPLE FRAN</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:700'>
+  <link rel="stylesheet" href="./style.css">
+  <!-- <link rel="stylesheet" href="./textFill.css"> -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+<body>
+      <audio id="player" controls autoplay class="audioFran">
+        <source src="francumple.mp3" type="audio/mp3">
+     </audio>
+<!-- partial:index.partial.html -->
+
+<div class="starwars-demo">
+    <p class="star">DreamCatcher</p>
+    <p class="wars">Presents</p>
+    <p class="byline" id="byline">Fran's Birthday</p>
+    
+</div>
+
+<img src="foto1.JPG" alt="" class="foto1">
+<img src="foto2.jpg" alt="" class="foto2">
+<img src="foto3.JPG" alt="" class="foto3">
+<img src="foto4.JPG" alt="" class="foto4">
+
+<img src="foto5.jpg" alt="" class="foto5">
+<img src="foto6.jpeg" alt="" class="foto6">
+<img src="foto7.jpeg" alt="" class="foto7">
+<img src="foto8.jpeg" alt="" class="foto8">
+
+<div class="letter">
+    <img src="https://media1.giphy.com/avatars/MyPostcard/1ggCV9yJ9ml9.gif" class="letterImage" alt="">
+    <h1 class="letterText">Porque aunque no te guste celebrar este día, déjanos que por lo menos te demos alguna sopresilla ¿no?</h1>
+</div>
+
+<div class="gift">
+    <h1 class="giftText">¿Preparado para tu regalín?</h1>
+    <img src="https://support.discord.com/hc/article_attachments/360017625211/giftinglove.gif" class="giftImage" alt="">
+</div>
+
+<div class="plane">
+    <h1 class="giftText">VIAJE DESTINO -> FIN DEL MUNDOOOOO!</h1>
+    <img src="https://thumbs.gfycat.com/UnfitCriminalGermanwirehairedpointer-size_restricted.gif" class="giftImage" alt="">
+</div>
+
+<div class="group">
+</div>
+
+<h1 class="happy">¡¡¡¡¡¡FELICIDADES!!!!!</h1>
+<img src="http://3.bp.blogspot.com/--NyFl5tbAO0/VhpbaVKZzaI/AAAAAAAA3Jw/dHpCyPrAjqE/s1600/minions-7.gif" alt="" class="friends">
+
+<script>
+    var source = "./francumple.mp3"
+ var audio = document.createElement("audio");
+ //
+ audio.autoplay = true;
+ //
+ audio.load()
+ audio.addEventListener("load", function() { 
+     audio.play(); 
+ }, true);
+ audio.src = source;
+</script>
+
+  <script src="./script.js"></script>
+<!-- partial -->
+</body>
+</html>
